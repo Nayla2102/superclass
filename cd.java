@@ -41,6 +41,13 @@ public class cd extends product {
         this.label = label;
     }
 
-   
+    @Override
+    
+    public void print() {
+        super.print();
+        System.out.println("artist : "+ artist);
+        System.out.println("total song : "+numSong);
+        System.out.println("label : "+label);
+    }
 
 }

@@ -42,6 +42,14 @@ public class dvd extends product {
     public void setStudio(String studio) {
         this.studio = studio;
     }
-    
 
+    
+    @Override
+    
+    public void print() {
+        super.print();
+        System.out.println("length : "+ length);
+        System.out.println("rating : "+ studio);
+        System.out.println("studio : "+ studio);
+    }
 }
