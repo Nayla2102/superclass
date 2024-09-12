@@ -6,6 +6,9 @@ public class tester {
         System.out.println("Berapa objek yang dibuat?");
         System.out.println("cd atau dvd?");
         String pilihan = in.next();
+        for (int i=50; i >=1; i--){
+            System.out.println(i+ ",");
+        }
 
 
 
